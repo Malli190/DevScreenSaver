@@ -37,7 +37,7 @@ class MyButtonInInspector : Editor
         var _parentScript = (_DevScreenSaver)target;
 
         if (_parentScript == null) return;
-        if(GUILayout.Button("Сделать скрин"))
+        if(GUILayout.Button("РЎРґРµР»Р°С‚СЊ СЃРєСЂРёРЅ"))
         {
             _parentScript.TakeScreenAndSave();
         }
